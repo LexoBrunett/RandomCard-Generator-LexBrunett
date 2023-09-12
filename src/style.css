@@ -16,10 +16,16 @@ body {
 
 .UpLeft {
   font-size: 100px;
+  position: relative;
+  left: 16px;
+  top: 8px;
 }
 .Center {
   font-size: 100px;
 }
 .DownRight {
   font-size: 100px;
+  position: relative;
+  right: 16px;
+  bottom: 8px;
 }
