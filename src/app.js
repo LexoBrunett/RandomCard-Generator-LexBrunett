@@ -27,10 +27,14 @@ window.onload = function() {
   DownRight.classList.add("DownRight");
 
   UpLeft.innerHTML = icons[getRandom(icons.length)];
-  UpLeft.style.color = card_colors[getRandom(card_colors.length)];
-
   Center.innerHTML = card_numbers[getRandom(card_numbers.length)];
   DownRight.innerHTML = UpLeft.innerHTML;
+  let color = card_colors[getRandom(card_colors.length)];
+
+  Center.style.color = color;
+  UpLeft.style.color = color;
+  DownRight.style.color = color;
+
   card.append(UpLeft);
   card.append(Center);
   card.append(DownRight);
