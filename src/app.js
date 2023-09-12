@@ -17,7 +17,6 @@ window.onload = function() {
   card.classList.add("card");
   body.append(card);
 
-  //creacion div sup-izq
   const UpLeft = document.createElement("DIV");
   const Center = document.createElement("DIV");
   const DownRight = document.createElement("DIV");

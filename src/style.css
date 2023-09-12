@@ -9,23 +9,23 @@ body {
   background-color: white;
   width: 400px;
   height: 600px;
-  border-radius: 7px;
+  border-radius: 12px;
+  margin: auto;
+  display: flex;
   flex-direction: column;
-  align-items: baseline;
+  justify-content: space-between;
 }
 
 .UpLeft {
   font-size: 100px;
-  position: relative;
-  left: 16px;
-  top: 8px;
 }
 .Center {
   font-size: 100px;
+  padding: 0 20px 0 20px;
+  margin: auto;
 }
 .DownRight {
   font-size: 100px;
-  position: relative;
-  right: 16px;
-  bottom: 8px;
+  display: flex;
+  justify-content: end;
 }
