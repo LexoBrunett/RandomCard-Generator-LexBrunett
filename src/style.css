@@ -15,13 +15,13 @@ body {
   align-items: baseline;
 }
 
-.SupIzq {
+.UpLeft {
   font-size: 100px;
 }
-.centro {
+.Center {
   font-size: 100px;
 }
-.inferiorDerecha {
+.DownRigth {
   font-size: 100px;
   float: right;
 }
