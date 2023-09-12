@@ -7,10 +7,9 @@ import "./assets/img/4geeks.ico";
 
 let icons = ["♥", "♠", "♣", "♦"];
 let card_numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K", "A"];
+let card_colors = ["red", "black"];
 
 window.onload = function() {
-  //write your code here
-  // creacion body
   const body = document.body;
   body.style.background = "green";
 
@@ -28,8 +27,10 @@ window.onload = function() {
   DownRight.classList.add("DownRight");
 
   UpLeft.innerHTML = icons[getRandom(icons.length)];
+  UpLeft.style.color = card_colors[getRandom(card_colors.length)];
+
   Center.innerHTML = card_numbers[getRandom(card_numbers.length)];
-  DownRight.innerHTML = icons[getRandom(icons.length)];
+  DownRight.innerHTML = UpLeft.innerHTML;
   card.append(UpLeft);
   card.append(Center);
   card.append(DownRight);
